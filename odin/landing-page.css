@@ -24,3 +24,22 @@ ul{
     gap:10px;
     flex-grow: 1;
 }
+.hero{
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    gap: 20px
+}
+img{
+    display: flex;
+    height: auto;
+    width: 300px;
+}
+button{
+    color: white;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    margin: 8px 2px;
+    padding: 5px 18px;
+}
