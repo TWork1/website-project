@@ -146,7 +146,7 @@ flex: 0 1 0;
     width: 750px;
     border-radius: 8px;
     padding: 30px 50px;
-    margin: 80px
+    margin: 80px 0px 50px
 }
 #second{
     border: 1px solid white;
@@ -166,4 +166,12 @@ flex: 0 1 0;
 .ct{
     display: flex;
     flex: none;
+}
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
 }
