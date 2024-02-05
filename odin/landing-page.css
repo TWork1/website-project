@@ -28,13 +28,14 @@ ul{
 .hero{
     display: flex;
     background-color: #1f2937;
-    align-items: flex-end;
+    align-items: center;
     gap: 20px;
     padding: 50px 0 50px 0;
 }
 .he-text{
     display: flex;
     flex-direction: column;
+    flex: 1
 }
 .main-text{
     font-size: 48px;
@@ -47,13 +48,6 @@ ul{
     color: #e5e7eb;
     width: 350px;
 }
-img{
-    display: flex;
-    height: 200px;
-    width: 300px;
-    flex: auto;
-
-}
 button{
     color: white;
     background-color: #3882f6;
@@ -63,4 +57,13 @@ button{
     padding: 5px auto;
     width: 100px;
     height: 25px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #72808a;
+    flex: 1;
+    height: 200px;
+    border-radius: 10px;
 }
