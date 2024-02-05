@@ -46,7 +46,7 @@ ul{
 .sub-text{
     font: 18px;
     color: #e5e7eb;
-    width: 350px;
+    width: 450px;
 }
 button{
     color: white;
@@ -57,6 +57,7 @@ button{
     padding: 5px auto;
     width: 100px;
     height: 25px;
+    font-weight:bold;
 }
 .image{
     display: flex;
@@ -66,4 +67,26 @@ button{
     flex: 1;
     height: 200px;
     border-radius: 10px;
+}
+.random{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.ri{
+    border-radius: 20px;
+    border: solid black;
+}
+img{
+    border-radius: 90%;
+    width: 100px;
+}
+.boxes{
+    display: flex;
+
+}
+.box{
+    margin: 20px;
 }
