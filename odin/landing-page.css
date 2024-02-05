@@ -87,6 +87,8 @@ button{
     text-align: center;
     height: 300px;
     flex:1;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .rt{
     font-size: 36px;
@@ -133,4 +135,35 @@ flex: 0 1 0;
     display: flex;
     text-align: end;
     padding-left: 500px;
+}
+.call{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    flex: none;
+    align-self: center;
+    width: 750px;
+    border-radius: 8px;
+    padding: 30px 50px;
+    margin: 80px
+}
+#second{
+    border: 1px solid white;
+}
+.lc{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+}
+.ca{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex: none;
+}
+.ct{
+    display: flex;
+    flex: none;
 }
