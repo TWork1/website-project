@@ -75,9 +75,14 @@ button{
     align-items: center;
     text-align: center;
 }
+.rt{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
 .ri{
     border-radius: 20px;
-    border: solid black;
+    border: solid #3882f6;
 }
 img{
     border-radius: 90%;
@@ -85,8 +90,8 @@ img{
 }
 .boxes{
     display: flex;
-
 }
 .box{
     margin: 20px;
+    height: 100px;
 }
