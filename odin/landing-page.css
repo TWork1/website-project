@@ -1,6 +1,7 @@
 .all{
     display: flex;
     flex-direction: column;
+    margin: -8px;
     /* Add Padding at the end of the coddin process to get final look */
 }
 .header{
@@ -27,13 +28,31 @@ ul{
 .hero{
     display: flex;
     background-color: #1f2937;
-    align-items: center;
-    gap: 20px
+    align-items: flex-end;
+    gap: 20px;
+    padding: 50px 0 50px 0;
+}
+.he-text{
+    display: flex;
+    flex-direction: column;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 500px;
+}
+.sub-text{
+    font: 18px;
+    color: #e5e7eb;
+    width: 350px;
 }
 img{
     display: flex;
-    height: auto;
+    height: 200px;
     width: 300px;
+    flex: auto;
+
 }
 button{
     color: white;
@@ -41,5 +60,7 @@ button{
     border: 1px solid #3882f6;
     border-radius: 10px;
     margin: 8px 2px;
-    padding: 5px 18px;
+    padding: 5px auto;
+    width: 100px;
+    height: 25px;
 }
